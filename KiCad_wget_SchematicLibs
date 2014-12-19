@@ -1,4 +1,5 @@
-#bash
+#!/bin/bash
+
 wget https://github.com/KiCad/Buzzers_Beepers.pretty/archive/master.zip
 wget https://github.com/KiCad/Capacitors_Elko_ThroughHole.pretty/archive/master.zip
 wget https://github.com/KiCad/Capacitors_SMD.pretty/archive/master.zip
