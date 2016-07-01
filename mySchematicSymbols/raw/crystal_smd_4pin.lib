@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# CRYSTAL_SMD_4pin
+#
+DEF CRYSTAL_SMD_4pin X 0 40 Y N 1 F N
+F0 "X" 0 90 50 H V C CNN
+F1 "CRYSTAL_SMD_4pin" -255 165 50 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -20 40 20 -40 0 1 0 f
+P 2 0 1 0  -70 -70  70 -70 N
+P 2 0 1 16  -50 50  -50 -50 N
+P 2 0 1 16  50 50  50 -50 N
+X 1 1 -150 0 100 R 25 20 1 1 P
+X 2 2 -50 -100 30 U 25 20 1 1 P
+X 3 3 150 0 100 L 25 20 1 1 P
+X case 4 50 -100 30 U 25 20 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

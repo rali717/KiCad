@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# switch
+#
+DEF switch U 0 40 Y Y 1 F N
+F0 "U" -200 100 60 H V C CNN
+F1 "switch" -250 -50 60 H V C CNN
+F2 "" -170 380 60 H V C CNN
+F3 "" -170 380 60 H V C CNN
+DRAW
+P 2 0 1 0  0 -50  50 50 N
+X ~ 1 0 150 100 D 50 50 1 1 I
+X ~ 2 0 -150 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# switch_smd
+#
+DEF switch_smd U 0 40 Y Y 1 F N
+F0 "U" 15 -175 60 H V C CNN
+F1 "switch_smd" -25 -260 60 H V C CNN
+F2 "" -170 380 60 H V C CNN
+F3 "" -170 380 60 H V C CNN
+DRAW
+C 0 -100 10 0 1 0 F
+C 0 100 10 0 1 0 F
+P 2 0 1 0  0 -100  0 -50 N
+P 2 0 1 0  0 -50  50 50 N
+P 2 0 1 0  0 50  0 100 N
+X ~ 1 -200 100 200 R 50 50 1 1 I
+X ~ 2 200 100 200 L 50 50 1 1 I
+X ~ 3 -200 -100 200 R 50 50 1 1 I
+X ~ 4 200 -100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

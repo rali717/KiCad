@@ -1,0 +1,61 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 24C64_SC-70
+D FM24C64B-G, 64Kb Serial 5V FRAM Nonvolatile Memory I2C Interface
+K FRAM I2C Serial 5V FRAM Nonvolatile Memory
+F http://www.cypress.com/?mpn=FM24C64B-G
+$ENDCMP
+#
+$CMP CONN_01X08
+D Connector 01x08
+$ENDCMP
+#
+$CMP CONN_02X03
+D Connector 02x03
+$ENDCMP
+#
+$CMP CRYSTAL_SMD_4pin
+D cystal smd 4pin
+K crystal smd 4pin
+$ENDCMP
+#
+$CMP GND
+K POWER, PWR
+$ENDCMP
+#
+$CMP Inductor
+D Inductor
+$ENDCMP
+#
+$CMP Line_Filter
+D Inductor
+$ENDCMP
+#
+$CMP Power-Switch
+D Micrel Power Switch 
+K Micrel Power Switch 
+$ENDCMP
+#
+$CMP USB-Type-C-Receptacle
+D USB 3.1 Type C Receptacle Horizontal THT / SMT WR-COM
+K Würth Wurth 632723100011 632723300011
+F http://katalog.we-online.de/em/datasheet/632723x00011.pdf
+$ENDCMP
+#
+$CMP Varistor
+D Varistor
+$ENDCMP
+#
+$CMP WE-TVS
+D TVS Diode Array WE-TVS  82400152  SOT563
+K TVS Diode Array WE-TVS Würth Wurth 82400152 SOT563
+F http://katalog.we-online.de/pbs/datasheet/82400152.pdf
+$ENDCMP
+#
+$CMP WE-TVS_
+D TVS Diode Array WE-TVS  82400152  SOT563
+K TVS Diode Array WE-TVS Würth Wurth 82400152 SOT563
+F http://katalog.we-online.de/pbs/datasheet/82400152.pdf
+$ENDCMP
+#
+#End Doc Library
